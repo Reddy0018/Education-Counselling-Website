@@ -1,0 +1,76 @@
+body{
+  background-color: #121212;
+}
+.loginPage{
+  background-color: white;
+  width: 300px;
+  height: 250px;
+  margin-left: 35%;
+  margin-top: 15%;
+  padding: 25px;
+  display: block;
+  text-align: center;
+}
+.loginProp{
+  margin-left: auto;
+  outline: none;
+  border: none 0;
+  background-color: #e2e2e2;
+  text-align: center;
+  padding: 10px;
+  width: 220px;
+  height: 30px;
+}
+.loginBtn{
+  color: white;
+  font-weight: bold;
+  background-color: #121212;
+  margin-left: auto;
+  outline: none;
+  border: none 0;
+  text-align: center;
+  padding: 10px;
+  width: 240px;
+  height: 50px;
+}
+#signUp{
+  background-color: transparent;
+  border: none 0px;
+  outline: none;
+  color: #121212;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signPage{
+  background-color: white;
+  width: 300px;
+  height: 310px;
+  margin-left: 35%;
+  margin-top: 15%;
+  padding: 25px;
+  text-align: center;
+  display: none;
+}
+.signProp{
+  margin-left: auto;
+  outline: none;
+  border: none 0;
+  background-color: #e2e2e2;
+  text-align: center;
+  padding: 10px;
+  width: 220px;
+  height: 30px;
+}
+.signBtn{
+  color: white;
+  font-weight: bold;
+  background-color: #121212;
+  margin-left: auto;
+  outline: none;
+  border: none 0;
+  text-align: center;
+  padding: 10px;
+  width: 240px;
+  height: 50px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login/SignUp</title>
+    <link rel="stylesheet" href="../style/login.css" />
+    <script type="text/javascript" src="../script/login.js"></script>
+    <script type="text/javascript" src="../script/validate.js"></script>
+  </head>
+  <body>
+<div>
+<h1 style="color:white";><center>Welcome To Ripples Councelling.</h1>
+</div>
+<br></br>
+<br></br>
+<br></br>
+<div>  
+<center>
+<img src="person-icon.png" alt="person-icon" class="center">
+</center>
+<div id="loginPage" class="loginPage">
+          <form action= "../html/home.html" >
+            <input class="loginProp" type="text" placeholder="Username" required/>
+            <br /><br />
+            <input class="loginProp" type="password" placeholder="Password" required/>
+            <br /><br />
+           <input type="submit"onclick="abc()" >
+
+<script>
+function abc()
+{
+  alert("You Are Sucessfully logedin..");
+}
+</script>
+            <br /><br />
+            <p>Not Registered? <button id="signUp" type="button" onclick="showSign()">Create an account</button></p>
+          </form>
+        </div>
+        <div id="signPage" class="signPage">
+          <form>
+            <input class="signProp" id="user" type="text" placeholder="Username" onchange="validateUser()" required/>
+            <br /><br />
+            <input class="signProp" id="userPass" type="password" placeholder="Password (less that 10 characters)" onchange="validatePass()" required/>
+            <br /><br />
+            <input class="signProp" id="userEmail" type="email" placeholder="EMail" required/>
+            <br /><br />
+            <input class="signBtn" type="button" onclick="validate()" value="SignUp" />
+            <br /><br />
+            <p>Already Registered? <button id="signUp" type="button" onclick="showLogin()">Login</button></p>
+          </form>
+        </div>
+</div>
+  </body>
+</html>
